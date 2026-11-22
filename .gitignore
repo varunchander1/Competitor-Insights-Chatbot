@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Generated indexes and page assets
+faiss_index/
+page_assets/
+
+# Source filings (large, public: download from each bank's IR site)
+Docs/
+*.pdf
+*.xlsx
+*.xls
+
+# Local notes
+Instructions.txt
